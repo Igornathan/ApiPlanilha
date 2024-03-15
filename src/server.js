@@ -11,7 +11,6 @@ server.use(bodyParser.urlencoded({extended:false}));
 
 server.use('/api', routes);
 
-
 server.listen(process.env.PORT, ()=>{
     console.log(`Servidor está rodando em: https://localhost:${process.env.PORT}`)
 });
