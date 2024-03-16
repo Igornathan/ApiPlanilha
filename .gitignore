@@ -1,0 +1,12 @@
+# Ignorar arquivos gerados automaticamente
+node_modules/
+.env
+
+# Ignorar arquivos específicos
+.vscode/
+.DS_Store
+
+# Ignorar logs e caches
+logs/
+.cache/
+
